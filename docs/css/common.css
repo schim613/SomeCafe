@@ -38,6 +38,9 @@ strong {
   text-decoration: underline;
 }
 
+section {
+  margin: 50px 0;
+}
 /* 라이브러리 */
 
 
@@ -54,12 +57,12 @@ body {
   margin: 0 auto;
 }
 
-.section-1 > .con-1 .img {
+.section-1 > .content .img {
   position: relative;
   right:-20px;
 }
 
-.section-1 > .con-1 .btn-kakao {
+.section-1 > .content .btn-kakao {
   width:220px;
   height:100px;
   background-color: rgba(255, 255, 255, 0.5);
