@@ -38,8 +38,9 @@ strong {
   text-decoration: underline;
 }
 
-section {
-  margin: 50px 0;
+section, footer {
+  margin: 70px 0;
+  border:1px solid rgba(255, 255, 255, 0);
 }
 /* 라이브러리 */
 
@@ -86,5 +87,6 @@ body {
 /* 푸터 */
 footer {
   font-family: 'Cafe24SsurroundAir';
-  font-size: 12px;
+  font-size: 10px;
+  margin-bottom:0;
 }
