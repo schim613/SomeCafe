@@ -62,12 +62,12 @@ body {
 .section-1 > .content .btn-kakao {
   width:220px;
   height:100px;
-  background-color: #FFF4E4;
+  background-color: #FAE100;
 }
 
 .click {
   position: relative;
-  top:-20px;
+  top:-30px;
 }
 
 .section-2 > ul {
