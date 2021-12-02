@@ -39,14 +39,16 @@ strong {
 }
 
 section, footer {
-  margin: 80px 0;
+  margin: 70px 0;
   border:1px solid rgba(255, 255, 255, 0);
 }
+
 /* 라이브러리 */
 
 
 /* 커스텀 */
 body {
+  min-width: 100vw;
   font-family: 'Cafe24Ssurround';
   background: #F4DCD5;
   color:#272E27;
@@ -58,18 +60,15 @@ body {
   margin: 0 auto;
 }
 
-.section-1 > .content .img {
-  position: relative;
-  right:-20px;
-}
-
 .section-1 > .content .btn-kakao {
   width:220px;
   height:100px;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: relative;
-  left:-20px;
   background-color: #FFF4E4;
+}
+
+.click {
+  position: relative;
+  top:-20px;
 }
 
 .section-2 > ul {
